@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> my calculator</title>
+
+
+</head>
+<body>
+<div style="border:2px solid black;width:250px; text-align:center;">
+<h3> matheatical calculator</h3>
+<input type="text"  id="vi" readonly/>
+<br/>
+<br/>
+<br/>
+<div  >
+	<div>
+		<button onclick="vi.value=vi.value+1">1</button>
+		<button onclick="vi.value=vi.value+2">2</button>
+		<button onclick="vi.value=vi.value+3">3</button>
+		<button on click>c</button>
+	</div>
+	<div>
+		<button onclick="vi.value=vi.value+4">4</button>
+		<button onclick="vi.value=vi.value+5">5</button>
+		<button onclick="vi.value=vi.value+6">6</button>
+	</div>
+	<div>
+		<button onclick="vi.value=vi.value+7">7</button>
+		<button onclick="vi.value=vi.value+8">8</button>
+		<button onclick="vi.value=vi.value+9">9</button>
+	</div>
+	<div>
+		<button onclick="vi.value=vi.value+0">0</button>
+		<button onclick="vi.value=-vi.value">+/-</button>
+		<button onclick="vi.value=vi.value">.</button>
+		<button on click="vi.value=vi.value">=</button>
+	</div>
+
+<div>
+	<button onclick="vi.value+=parse.Int(vi.value)">+</button>
+	<button onclick="vi.value-=parse.Int(vi.value)">-</button>
+	<button onclick="vi.value*=parse.Int(vi.value)">*</button>
+	<button onclick="vi.value/=parse.Int(vi.value)">/</button>
+	<button onclick="vi.value%=parse.Int(vi.value)">%</button>
+
+</div>
+</div>
+</div>
+</body>
+</html>
+
